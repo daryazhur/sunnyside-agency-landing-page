@@ -1,0 +1,28 @@
+.transform {
+    text-align: center;
+}
+
+.egg {
+    background-image: url(../../pages/HomePage/img/mobile/image-transform.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    margin: 0;
+}
+
+.transform-content {
+    margin-inline: 20px;
+    margin-block: 40px;
+}
+
+.transform-content__text {
+    color: var(--very-dark-grayish-blue);
+    margin-block: 30px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+

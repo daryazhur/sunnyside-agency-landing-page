@@ -1,22 +1,28 @@
 import './style.css';
 
+import { Header } from '../../components/Header';
+import { Transform } from '../../components/Transform';
+import { Photography } from '../../components/Photography';
+import { GraphicDesign } from '../../components/GraphicDesign';
+import { StandOut } from '../../components/Stand-out';
+import { ClientTestimonials } from '../../components/Client/insex';
+import { Footer } from '../../components/Footer';
+
 export const HomePage = () => {
   return (
     <div className="container">
       <header>
-        <div className="logo" />
-        <h1>React webová aplikace</h1>
+        < Header />
       </header>
       <main>
-        <p>
-          Startovací šablona pro webovou aplikaci v Reactu. Vytvořeno pomocí
-          {" "}
-          <a href="https://www.npmjs.com/package/create-czechitas-app">create-czechitas-app</a>
-          .
-        </p>
+        < Transform />
+        < StandOut />
+        < GraphicDesign />
+        < Photography />
+        < ClientTestimonials />
       </main>
       <footer>
-        <p>Czechitas, Digitální akademie: Web</p>
+        < Footer />
       </footer>
     </div>
   );

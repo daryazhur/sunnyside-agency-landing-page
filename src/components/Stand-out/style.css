@@ -1,0 +1,22 @@
+.standout {
+    text-align: center;
+}
+
+.cup {
+    background-image: url(../../pages/HomePage/img/mobile/image-stand-out.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    margin: 0;
+}
+
+.standout-content {
+    margin-inline: 20px;
+    margin-block: 40px;
+}
+
+.standout-content__text {
+    color: var(--very-dark-grayish-blue);
+    margin-block: 30px;
+}
